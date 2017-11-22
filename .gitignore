@@ -57,23 +57,19 @@ typings/
 # dotenv environment variables file
 .env
 
-# dat-node
-!node_modules/dat-node
-node_modules/dat-node/node_modules/sodium-native/build
-node_modules/dat-node/node_modules/utp-native/build
+# test
+test/deps/dat/happy-birthday-0.6.0/.dat/
 
 # bundleDependencies
 !node_modules/fs-extra
 !node_modules/gunzip-maybe
 !node_modules/is-root
-!node_modules/mkdirp
 !node_modules/node-gyp
 !node_modules/npm-package-arg
 !node_modules/npm-path
 !node_modules/promise-each
 !node_modules/request
 !node_modules/require-directory
-!node_modules/rimraf
 !node_modules/semver
 !node_modules/tar-fs
 !node_modules/tar-stream

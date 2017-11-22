@@ -1,31 +1,26 @@
-sudo: false
+sudo: required
+dist: trusty
 language: node_js
+addons:
+  apt:
+    sources:
+      - ubuntu-toolchain-r-test
+    packages:
+      - g++-4.8
+before_install:
+  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then export CXX=g++-4.8; fi
+  - export JOBS=max
 matrix:
   include:
     - node_js: "6"
-      script: npm run test-ci
-      os:
-        - linux
-    - node_js: "6"
-      script: npm test
-      os:
-        - osx
+      before_install:
+        - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then export CXX=g++-4.8; fi
+        - export JOBS=max
+        - sudo ln -s $(which npm) /usr/bin/
+        - sudo ln -s $(which node) /usr/bin/
+      script: sudo npm run test-ci
     - node_js: "4"
       script: npm test
-      os:
-        - linux
-      env:
-        - CXX=g++-4.8
-      addons:
-        apt:
-          sources:
-            - ubuntu-toolchain-r-test
-          packages:
-            - g++-4.8
-    - node_js: "4"
-      script: npm test
-      os:
-        - osx
 cache:
   directories:
     - node_modules

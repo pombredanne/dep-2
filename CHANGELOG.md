@@ -2,6 +2,308 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.17.0"></a>
+# [0.17.0](https://github.com/depjs/dep/compare/v0.16.1...v0.17.0) (2017-09-26)
+
+
+### Bug Fixes
+
+* **deps:** add missing node-gyp files ([8325654](https://github.com/depjs/dep/commit/8325654))
+* **install:** use `--quiet` in git processes ([bbdf942](https://github.com/depjs/dep/commit/bbdf942))
+
+
+### Features
+
+* **install:** support git submodule ([1d410f4](https://github.com/depjs/dep/commit/1d410f4))
+
+
+
+<a name="0.16.1"></a>
+## [0.16.1](https://github.com/depjs/dep/compare/v0.16.0...v0.16.1) (2017-09-17)
+
+
+### Bug Fixes
+
+* **install:** fix to drop privilege ([3f57f04](https://github.com/depjs/dep/commit/3f57f04))
+* **test:** add `t.end` at 01 test ([958ea3e](https://github.com/depjs/dep/commit/958ea3e))
+* **test:** add a test for native-module ([01f44a5](https://github.com/depjs/dep/commit/01f44a5))
+* **test:** fix lint errors ([732ccfd](https://github.com/depjs/dep/commit/732ccfd))
+* **test:** remove debug log ([49d57c4](https://github.com/depjs/dep/commit/49d57c4))
+* **test:** update the permision of nyc ([7a736b1](https://github.com/depjs/dep/commit/7a736b1))
+* **test:** use exec for Windows ([5f75b3e](https://github.com/depjs/dep/commit/5f75b3e))
+* **test:** use execFile ([f9ccb47](https://github.com/depjs/dep/commit/f9ccb47))
+* **test:** use root user at ci ([e3ef948](https://github.com/depjs/dep/commit/e3ef948))
+
+
+
+<a name="0.16.0"></a>
+# [0.16.0](https://github.com/depjs/dep/compare/v0.15.0...v0.16.0) (2017-09-13)
+
+
+### Bug Fixes
+
+* **deps:** remove is-root ([da453d0](https://github.com/depjs/dep/commit/da453d0))
+* **deps:** remove reuqire-directory ([d2c8db2](https://github.com/depjs/dep/commit/d2c8db2))
+* **install:** install path directly ([b1a71ee](https://github.com/depjs/dep/commit/b1a71ee))
+* **install:** path is already resolved by fetchSpec ([4e7aae1](https://github.com/depjs/dep/commit/4e7aae1))
+* **install:** update the switch in saver ([efd88b9](https://github.com/depjs/dep/commit/efd88b9))
+* **test:** add timeout to test cmd ([b6ffc36](https://github.com/depjs/dep/commit/b6ffc36))
+* **test:** rm `.dat` dir after testing ([7952355](https://github.com/depjs/dep/commit/7952355))
+* **test:** save the file deps in tests ([ff05b3f](https://github.com/depjs/dep/commit/ff05b3f))
+* **test:** update directory tree in tests ([1b42853](https://github.com/depjs/dep/commit/1b42853))
+
+
+### Features
+
+* **meta:** transfer the repository to an org ([4dcb286](https://github.com/depjs/dep/commit/4dcb286))
+
+
+
+<a name="0.15.0"></a>
+# [0.15.0](https://github.com/watilde/dep/compare/v0.14.6...v0.15.0) (2017-09-09)
+
+
+### Bug Fixes
+
+* **test:** add test for the deprecated message ([633e457](https://github.com/watilde/dep/commit/633e457))
+
+
+### Features
+
+* **install:** display deprecated message ([eb9eced](https://github.com/watilde/dep/commit/eb9eced))
+
+
+
+<a name="0.14.6"></a>
+## [0.14.6](https://github.com/watilde/dep/compare/v0.14.5...v0.14.6) (2017-09-09)
+
+
+### Bug Fixes
+
+* **install:** change the permission of bin file ([17f3fb6](https://github.com/watilde/dep/commit/17f3fb6))
+
+
+
+<a name="0.14.5"></a>
+## [0.14.5](https://github.com/watilde/dep/compare/v0.14.4...v0.14.5) (2017-09-08)
+
+
+### Bug Fixes
+
+* **run:** update the defualt value of the cwd ([b64c200](https://github.com/watilde/dep/commit/b64c200))
+
+
+
+<a name="0.14.4"></a>
+## [0.14.4](https://github.com/watilde/dep/compare/v0.14.3...v0.14.4) (2017-09-08)
+
+
+### Bug Fixes
+
+* **install:** passing the right cwd to the runner ([df8009d](https://github.com/watilde/dep/commit/df8009d))
+
+
+
+<a name="0.14.3"></a>
+## [0.14.3](https://github.com/watilde/dep/compare/v0.14.2...v0.14.3) (2017-09-06)
+
+
+### Bug Fixes
+
+* **deps:** remove coveralls and nyc ([a0a7103](https://github.com/watilde/dep/commit/a0a7103))
+* **deps:** stop using rimraf ([89252d8](https://github.com/watilde/dep/commit/89252d8))
+* **gitignore:** ignore mkdirp ([2375194](https://github.com/watilde/dep/commit/2375194))
+* **install:** update removing file at dat fetcher ([e8ad5b9](https://github.com/watilde/dep/commit/e8ad5b9))
+* **refactor:** stop using mkdirp ([53400c6](https://github.com/watilde/dep/commit/53400c6))
+* **test:** add tests for dat dependency ([2391142](https://github.com/watilde/dep/commit/2391142))
+* **test:** fix coverage settings ([f0efd42](https://github.com/watilde/dep/commit/f0efd42))
+* **travis:** use the env at travis ([dd9c2cf](https://github.com/watilde/dep/commit/dd9c2cf))
+
+
+
+<a name="0.14.2"></a>
+## [0.14.2](https://github.com/watilde/dep/compare/v0.14.1...v0.14.2) (2017-08-31)
+
+
+### Bug Fixes
+
+* **install:** escape the name of scoped packages ([6dad6e7](https://github.com/watilde/dep/commit/6dad6e7))
+* **install:** tree setter should handle scoped package ([e10a011](https://github.com/watilde/dep/commit/e10a011))
+* **lock:** support scoped packages ([18f6557](https://github.com/watilde/dep/commit/18f6557))
+* **test:** skip mac on the ci for a while ([48e919e](https://github.com/watilde/dep/commit/48e919e))
+
+
+
+<a name="0.14.1"></a>
+## [0.14.1](https://github.com/watilde/dep/compare/v0.14.0...v0.14.1) (2017-08-27)
+
+
+### Bug Fixes
+
+* **install:** read package.json in the method ([a94dbe8](https://github.com/watilde/dep/commit/a94dbe8))
+
+
+
+<a name="0.14.0"></a>
+# [0.14.0](https://github.com/watilde/dep/compare/v0.13.6...v0.14.0) (2017-08-25)
+
+
+### Bug Fixes
+
+* **install:** add error handling to installer ([bbfd4b8](https://github.com/watilde/dep/commit/bbfd4b8))
+* **install:** grammer fix ([e4028fc](https://github.com/watilde/dep/commit/e4028fc))
+* **utils:** exit when couldn't drop privilege ([bbc4190](https://github.com/watilde/dep/commit/bbc4190))
+
+
+### Features
+
+* **install:** drop privileges instead of exit ([2a81a03](https://github.com/watilde/dep/commit/2a81a03))
+
+
+
+<a name="0.13.6"></a>
+## [0.13.6](https://github.com/watilde/dep/compare/v0.13.5...v0.13.6) (2017-08-19)
+
+
+### Bug Fixes
+
+* **dep:** make dat-node optional ([a2cba8a](https://github.com/watilde/dep/commit/a2cba8a))
+
+
+
+<a name="0.13.5"></a>
+## [0.13.5](https://github.com/watilde/dep/compare/v0.13.4...v0.13.5) (2017-08-19)
+
+
+### Bug Fixes
+
+* **install:** fix dat util ([36f14c6](https://github.com/watilde/dep/commit/36f14c6))
+* **test:** fix lint errors ([da93efa](https://github.com/watilde/dep/commit/da93efa))
+
+
+
+<a name="0.13.4"></a>
+## [0.13.4](https://github.com/watilde/dep/compare/v0.13.3...v0.13.4) (2017-08-19)
+
+
+### Bug Fixes
+
+* **install:** fix dat install logic ([76e3281](https://github.com/watilde/dep/commit/76e3281))
+* **install:** fix dat install process ([5a630bb](https://github.com/watilde/dep/commit/5a630bb))
+
+
+
+<a name="0.13.3"></a>
+## [0.13.3](https://github.com/watilde/dep/compare/v0.13.2...v0.13.3) (2017-08-15)
+
+
+### Bug Fixes
+
+* **test:** add test for install --only ([5580fe6](https://github.com/watilde/dep/commit/5580fe6))
+* **test:** fix lint errors ([5ace741](https://github.com/watilde/dep/commit/5ace741))
+
+
+
+<a name="0.13.2"></a>
+## [0.13.2](https://github.com/watilde/dep/compare/v0.13.1...v0.13.2) (2017-08-12)
+
+
+### Bug Fixes
+
+* **install:** mkdirp node_modules/.bin ([bdfb743](https://github.com/watilde/dep/commit/bdfb743))
+* **test:** add test for `install --save` ([679b21b](https://github.com/watilde/dep/commit/679b21b))
+* **test:** fix lint errors ([69acbd0](https://github.com/watilde/dep/commit/69acbd0))
+
+
+
+<a name="0.13.1"></a>
+## [0.13.1](https://github.com/watilde/dep/compare/v0.13.0...v0.13.1) (2017-08-10)
+
+
+### Bug Fixes
+
+* **bin:** add `depjs` alias ([5e8c905](https://github.com/watilde/dep/commit/5e8c905))
+
+
+
+<a name="0.13.0"></a>
+# [0.13.0](https://github.com/watilde/dep/compare/v0.12.0...v0.13.0) (2017-08-09)
+
+
+### Bug Fixes
+
+* **test:** fix lint errors ([81f3fa5](https://github.com/watilde/dep/commit/81f3fa5))
+
+
+### Features
+
+* **install:** add install --save=dev|prod ([170bcf8](https://github.com/watilde/dep/commit/170bcf8))
+
+
+
+<a name="0.12.0"></a>
+# [0.12.0](https://github.com/watilde/dep/compare/v0.11.0...v0.12.0) (2017-08-07)
+
+
+### Features
+
+* **install:** support install <pkg> ([4601b84](https://github.com/watilde/dep/commit/4601b84))
+
+
+
+<a name="0.11.0"></a>
+# [0.11.0](https://github.com/watilde/dep/compare/v0.10.3...v0.11.0) (2017-08-07)
+
+
+### Bug Fixes
+
+* **scripts:** use --only option ([2c49f00](https://github.com/watilde/dep/commit/2c49f00))
+
+
+### Features
+
+* **install:** add --only option ([caba701](https://github.com/watilde/dep/commit/caba701))
+
+
+
+<a name="0.10.3"></a>
+## [0.10.3](https://github.com/watilde/dep/compare/v0.10.2...v0.10.3) (2017-08-06)
+
+
+### Bug Fixes
+
+* **dep:** add .npmignore ([b4bcd03](https://github.com/watilde/dep/commit/b4bcd03))
+* **dep:** add bundleDependencies ([f4b592e](https://github.com/watilde/dep/commit/f4b592e))
+* **dep:** add dat-node ([8c68afb](https://github.com/watilde/dep/commit/8c68afb))
+* **dep:** add unbuild modules to dat-node ([23c405d](https://github.com/watilde/dep/commit/23c405d))
+* **dep:** ignore node_modules in dat-node ([ef25188](https://github.com/watilde/dep/commit/ef25188))
+* **dep:** make dat-node optional ([fb1bc71](https://github.com/watilde/dep/commit/fb1bc71))
+* **dep:** put bundleDependencies ([90163ff](https://github.com/watilde/dep/commit/90163ff))
+* **dep:** remove bundle deps of dat-node ([9dd0675](https://github.com/watilde/dep/commit/9dd0675))
+* **dep:** update dat version ([22c6722](https://github.com/watilde/dep/commit/22c6722))
+* **dep:** update dat-node files ([130e879](https://github.com/watilde/dep/commit/130e879))
+* **dep:** update standard version ([51481ac](https://github.com/watilde/dep/commit/51481ac))
+* **gitignore:** put bundleDependencies ([638dd6e](https://github.com/watilde/dep/commit/638dd6e))
+* **gitignore:** tweak the scope of dat-node ([a76904e](https://github.com/watilde/dep/commit/a76904e))
+* **install:** add dat fixture ([35a88f6](https://github.com/watilde/dep/commit/35a88f6))
+* **install:** fix rimraf call ([c2e4b00](https://github.com/watilde/dep/commit/c2e4b00))
+* **install:** fix the path of node-gyp ([5fe9988](https://github.com/watilde/dep/commit/5fe9988))
+* **install:** replace the path of node-gyp ([e7cbe95](https://github.com/watilde/dep/commit/e7cbe95))
+* **refactor:** use arrow function ([88f67cb](https://github.com/watilde/dep/commit/88f67cb))
+* **scirpts:** update install build process ([bfa004e](https://github.com/watilde/dep/commit/bfa004e))
+* **script:** add stand alone install/uninstall script ([fb1cdcc](https://github.com/watilde/dep/commit/fb1cdcc))
+* **script:** fix uninstall/install scripts ([16ba314](https://github.com/watilde/dep/commit/16ba314))
+* **scripts:** add handling dat-node ([dc16b74](https://github.com/watilde/dep/commit/dc16b74))
+* **scripts:** add native build processes to install script ([cf13f4b](https://github.com/watilde/dep/commit/cf13f4b))
+* **scripts:** change the order to install nodeGyp ([90f82c0](https://github.com/watilde/dep/commit/90f82c0))
+* **scripts:** fix lint errors in the install script ([e9306e6](https://github.com/watilde/dep/commit/e9306e6))
+* **scripts:** fix the install script to make a symlink ([ea50cdc](https://github.com/watilde/dep/commit/ea50cdc))
+* **scripts:** improve the logs ([5a1b218](https://github.com/watilde/dep/commit/5a1b218))
+* **test:** check scripts and fix lint errors ([91b30eb](https://github.com/watilde/dep/commit/91b30eb))
+* **util:** change node-gyp path ([f447d44](https://github.com/watilde/dep/commit/f447d44))
+
+
+
 <a name="0.10.2"></a>
 ## [0.10.2](https://github.com/watilde/dep/compare/v0.10.1...v0.10.2) (2017-08-03)
 
